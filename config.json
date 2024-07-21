@@ -2,5 +2,9 @@
     "title":"pandahk 个人博客",
     "subTitle":"欢迎来到我的博客",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "allHead":"<script src='https://blog.meekdai.com/assets/GmeekBSZ.js'></script>",
+    "allHead":"<script src='https://blog.meekdai.com/assets/GmeekVercount.js'></script>",
+    "script":"<script src='https://blog.meekdai.com/assets/GmeekTOC.js'></script>",
+    "script":"<script src='https://blog.liyifan.xyz/assets/backtotop.js'></script>"
 }
