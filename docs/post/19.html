@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
-    <script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>
+    <script src='https://blog.meekdai.com/assets/GmeekVercount.js'></script><script src='https://blog.meekdai.com/assets/GmeekTOC.js'></script><script src='https://pandahk.github.io/backtotop.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>
     <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -158,8 +158,8 @@
 ### （五）、确认关闭的镜像站
 1. 北京航空航天大学：[http://mirror.buaa.edu.cn/](http://mirror.buaa.edu.cn/)，[http://mirror.buaabt.cn/](http://mirror.buaabt.cn/)（2012年建立，2014年关闭。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://pandahk.github.io/post/guo-nei-kai-yuan-jing-xiang-zhan-dian-hui-zong.html">
-<meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
+<meta property="og:url" content="https://pandahk.github.io/post/19.html">
+<meta property="og:image" content="https://i1.hdslb.com/bfs/face/4963f665e12a4703a1c54adc252fcae4b7e93005.jpg@240w_240h_1c_1s_!web-avatar-nav.avif">
 <title>国内开源镜像站点汇总</title>
 
 
@@ -578,7 +578,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>2020-11-17:哈尔滨工业大学镜像重开</li>
 <li>2021-2-5:因Oracle JDK 8u203开始改变授权模式，无法免费商用，新增替代版免费JDK：AdoptOpenJDK</li>
 </ul></div>
-<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
+<div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
@@ -593,8 +593,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("07/18/2024"!=""){
+    var startSite=new Date("07/18/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -678,6 +678,6 @@ function iFrameLoading(){
 
 
 </script>
-
+<script>document.getElementById('cmButton').click();</script>
 
 </html>
