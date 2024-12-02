@@ -7,5 +7,6 @@
     "allHead":"<script src='https://blog.meekdai.com/assets/GmeekVercount.js'></script>",
     "script":"<script src='https://blog.meekdai.com/assets/GmeekTOC.js'></script>",
     "script":"<script src='https://blog.liyifan.xyz/assets/backtotop.js'></script>",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "singlePage":["link","about"]
 }
